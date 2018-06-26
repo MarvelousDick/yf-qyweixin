@@ -1,0 +1,20 @@
+jdbcUrl = jdbc:mysql://127.0.0.1/wechat_company?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user = root
+password = 9898
+devMode = true
+
+# 微信服务器回调所用的 token
+token=gyz
+
+# 企业号用的账号
+#应用ID
+agentId = 1000004
+#以下两个值在设置>权限管理中查看
+corpId=	ww086ef14b9328f027
+secret= seooB1Inl12KIeoycnam8AuYH9IDLlg52OFxPR5qh04
+
+#是否对消息进行加密，是否对消息进行加密，对应于微信平台的消息加解密方式，false支持明文模式及兼容模式，true支持安全模式及兼容模式
+encryptMessage=false
+encodingAesKey=t0zAeMNFyc9YegTabTWSn1sxVSjonpQUVESYm4VtquM
+
+domain = http://qy.javen.1mfy.cn
